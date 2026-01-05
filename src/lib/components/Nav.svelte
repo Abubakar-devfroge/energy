@@ -1,5 +1,5 @@
 <script>
-		let img = '/ener.png';
+	let img = '/ener.png';
 	let src = '/ke.svg';
 	import Button from '$lib/components/ui/Button.svelte';
 </script>

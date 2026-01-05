@@ -62,7 +62,7 @@
 				<div class="flex items-center justify-center gap-2 mb-2 w-full">
 					<img src={img} alt="kenya" class="w-12 h-auto ml-12" />
 					<div class="border-l-2 border-gray-300 h-8"></div>
-					<img src={src} alt="logo" class="w-10 h-auto" />
+					<img {src} alt="logo" class="w-10 h-auto" />
 				</div>
 				<p
 					class="text-xs tracking-normal font-light text-gray-950 dark:text-slate-400 max-w-xs my-6"
