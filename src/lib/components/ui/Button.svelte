@@ -7,7 +7,7 @@
 <a
 	{href}
 	class={`
-    inline-block rounded-2xl px-8 py-2 text-sm font-medium transition
+    inline-block rounded-md px-8 py-4 text-sm font-medium transition
     ${
 			variant === 'primary'
 				? 'bg-black text-white hover:bg-gray-900'

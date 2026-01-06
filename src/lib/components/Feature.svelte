@@ -17,8 +17,8 @@
 				<p class="mt-6 text-lg text-gray-500 leading-relaxed">
 					{paragraph}
 				</p>
-				<a href="/learn" class="inline-block mt-8 text-blue-500 font-semibold hover:underline">
-					Learn more
+				<a href="/signup" class="inline-block mt-8 text-blue-500 font-semibold hover:underline">
+					Get started &rarr;
 				</a>
 			</div>
 

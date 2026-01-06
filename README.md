@@ -9,7 +9,7 @@ Upload your energy data, let the system analyze it, perform an audit, and get ac
 
 Clone this prototype from GitHub:
 
-```sh
+````sh
 git clone https://github.com/Abubakar-devfroge/energy.git
 cd energy/res
 
@@ -20,7 +20,7 @@ To create a production version of your app:
 
 ```sh
 pnpm run build
-```
+````
 
 You can preview the production build with `pnpm run preview`.
 

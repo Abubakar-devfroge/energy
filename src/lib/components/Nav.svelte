@@ -12,10 +12,6 @@
 			<div class="flex flex-col items-start">
 				<div class="flex items-center justify-center gap-2 mb-2 w-full">
 					<img src={img} alt="kenya" class="w-12 h-auto ml-12" />
-
-					<div class="border-l-2 border-gray-300 h-8"></div>
-
-					<img {src} alt="logo" class="w-10 h-auto" />
 				</div>
 			</div>
 		</div>
