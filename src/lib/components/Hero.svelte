@@ -21,7 +21,7 @@
 					Energy insights that predict savings, so you don’t have to guess.
 				</p>
 				<div class="mt-10 flex items-center justify-center gap-x-4">
-					<Button href="/login" variant="primary">Start Smart Audits</Button>
+					<Button href="/signup" variant="primary">Start Smart Audits</Button>
 					<!-- <Button href="/register" variant="outline">Sign in</Button> -->
 				</div>
 			</div>
