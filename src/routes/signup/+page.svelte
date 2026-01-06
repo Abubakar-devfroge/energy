@@ -34,7 +34,7 @@
 </script>
 
 <div
-	class="min-h-screen flex flex-col justify-center items-center bg-gray-50 dark:bg-gray-900 px-4"
+	class="min-h-screen flex flex-col justify-center items-center dark:bg-gray-900 px-4"
 >
 	<div class="w-full max-w-md bg-white dark:bg-gray-800 p-8 sm:p-10">
 		<h1 class="text-3xl font-semibold text-gray-900 dark:text-white mb-6 text-center">
@@ -47,7 +47,7 @@
 				placeholder="Full name"
 				bind:value={name}
 				required
-				class="w-full border border-gray-300 dark:border-gray-700 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 px-6 py-3 bg-gray-50 dark:bg-gray-700 text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-400"
+				class="w-full dark:border-gray-700 focus:border-blue-500 rounded-md px-4 py-2 bg-gray-50 dark:bg-gray-700 text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-400"
 			/>
 
 			<Input
@@ -55,7 +55,7 @@
 				placeholder="Email"
 				bind:value={email}
 				required
-				class="w-full border border-gray-300 dark:border-gray-700 focus:ring-2 focus:ring-blue-500 focus:border-blue-500  px-6 py-3 bg-gray-50 dark:bg-gray-700 text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-400"
+				class="w-full dark:border-gray-700 focus:border-blue-500 rounded-md px-4 py-2 bg-gray-50 dark:bg-gray-700 text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-400"
 			/>
 
 			<Input
@@ -63,7 +63,7 @@
 				placeholder="Password"
 				bind:value={password}
 				required
-				class="w-full border border-gray-300 dark:border-gray-700 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 rounded-lg px-4 py-3 bg-gray-50 dark:bg-gray-700 text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-400"
+					class="w-full dark:border-gray-700 focus:border-blue-500 rounded-md px-4 py-2 bg-gray-50 dark:bg-gray-700 text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-400"
 			/>
 
 			{#if error}
@@ -85,7 +85,7 @@
 
 			<div class="text-center text-sm text-gray-500 dark:text-gray-400 mt-3">
 				Already have an account?
-				<a href="/login" class="text-blue-500 hover:underline">Sign in</a>
+				<a href="/login" class="text-gray-900 hover:underline">Sign in</a>
 			</div>
 		</form>
 	</div>

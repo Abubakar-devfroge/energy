@@ -1,5 +1,5 @@
 <script>
-	let src = '/bg.png';
+	let src = '/t.webp';
 	import Button from '$lib/components/ui/Button.svelte';
 </script>
 

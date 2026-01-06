@@ -1,5 +1,5 @@
 <script>
-	let src = '/mainta.jpg';
+	let src = '/un.svg';
 	let title = 'Identify energy inefficiencies early.';
 	let paragraph =
 		'Mention @echo anywhere to request implementation, fixes or just clarification. Echo responds just like a team member.';
