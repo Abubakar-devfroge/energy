@@ -6,7 +6,7 @@
 
 <!-- <div class=" bg-gray-300 border-t-2 border-gray-300 m-10"></div> -->
 
-<footer class="pt-8 bg-gray-200 dark:bg-transparent">
+<footer class="pt-8 dark:bg-transparent">
 	<div class="w-full max-w-screen-2xl mx-auto p-4 pb-8 lg:mt-10">
 		<div class="flex flex-wrap items-center justify-between gap-2.5">
 			<div class="flex-1 max-w-md">

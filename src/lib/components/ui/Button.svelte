@@ -7,11 +7,11 @@
 <a
 	{href}
 	class={`
-    inline-block rounded-md px-8 py-4 text-sm font-medium transition
+    inline-block  px-6 py-2 text-sm font-medium transition mx-1
     ${
 			variant === 'primary'
-				? 'bg-black text-white hover:bg-gray-900'
-				: 'hover:border hover:bg-gray-200'
+				? 'bg-black text-white rounded-md hover:bg-gray-900'
+				: 'bg-white text-black rounded-full hover:bg-gray-200'
 		}
     ${className}
   `}

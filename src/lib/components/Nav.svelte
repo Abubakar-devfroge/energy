@@ -6,12 +6,12 @@
 
 <div>
 	<div
-		class="relative z-10 bg-transparent mx-auto flex max-w-7xl flex-row items-center justify-between space-x-2 p-2 sm:space-x-3 sm:p-2 xl:px-0"
+		class="relative z-10 bg-black text-white w-full flex items-center justify-between px-4 sm:px-6 h-16"
 	>
 		<div class="flex items-center space-x-2">
 			<div class="flex flex-col items-start">
 				<div class="flex items-center justify-center gap-2 mb-2 w-full">
-					<img src={img} alt="kenya" class="w-12 h-auto ml-12" />
+					<span class="text-2xl sm:text-3xl font-bold tracking-tight text-white ml-12"> Echo </span>
 				</div>
 			</div>
 		</div>

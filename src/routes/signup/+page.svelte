@@ -33,8 +33,10 @@
 	}
 </script>
 
-<div class="min-h-screen flex flex-col justify-center items-center bg-gray-50 dark:bg-gray-900 px-4">
-	<div class="w-full max-w-md bg-white dark:bg-gray-800  p-8 sm:p-10">
+<div
+	class="min-h-screen flex flex-col justify-center items-center bg-gray-50 dark:bg-gray-900 px-4"
+>
+	<div class="w-full max-w-md bg-white dark:bg-gray-800 p-8 sm:p-10">
 		<h1 class="text-3xl font-semibold text-gray-900 dark:text-white mb-6 text-center">
 			Create Account
 		</h1>
@@ -82,7 +84,7 @@
 			</button>
 
 			<div class="text-center text-sm text-gray-500 dark:text-gray-400 mt-3">
-				Already have an account? 
+				Already have an account?
 				<a href="/login" class="text-blue-500 hover:underline">Sign in</a>
 			</div>
 		</form>
