@@ -22,7 +22,7 @@
 
 		<div class="flex w-auto items-center space-x-2">
 			<Button href="/login" variant="outline">Sign in</Button>
-			<Button href="/signup" variant="primary">Get started</Button>
+			<!-- <Button href="/signup" variant="primary">Get started</Button> -->
 		</div>
 	</div>
 </div>
