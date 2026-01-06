@@ -33,9 +33,7 @@
 	}
 </script>
 
-<div
-	class="min-h-screen flex flex-col justify-center items-center dark:bg-gray-900 px-4"
->
+<div class="min-h-screen flex flex-col justify-center items-center dark:bg-gray-900 px-4">
 	<div class="w-full max-w-md bg-white dark:bg-gray-800 p-8 sm:p-10">
 		<h1 class="text-3xl font-semibold text-gray-900 dark:text-white mb-6 text-center">
 			Create Account
@@ -63,7 +61,7 @@
 				placeholder="Password"
 				bind:value={password}
 				required
-					class="w-full dark:border-gray-700 focus:border-blue-500 rounded-md px-4 py-2 bg-gray-50 dark:bg-gray-700 text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-400"
+				class="w-full dark:border-gray-700 focus:border-blue-500 rounded-md px-4 py-2 bg-gray-50 dark:bg-gray-700 text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-400"
 			/>
 
 			{#if error}

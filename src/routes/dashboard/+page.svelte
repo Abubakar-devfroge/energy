@@ -2,7 +2,7 @@
 	import List from '$lib/components/List.svelte';
 	import Navbar from '$lib/components/ui/dashboard/Navbar.svelte';
 	import Upload from '$lib/components/Upload.svelte';
-import { supabase } from '$lib/supabase/client';
+	import { supabase } from '$lib/supabase/client';
 	import { onMount } from 'svelte';
 
 	let name = '';
@@ -13,10 +13,7 @@ import { supabase } from '$lib/supabase/client';
 	});
 </script>
 
-
-
 <Navbar />
-
 
 <h1 class="text-2xl font-bold">
 	Welcome, {name}

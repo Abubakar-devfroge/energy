@@ -10,7 +10,6 @@
 		loading = true;
 		error = '';
 
-	
 		const {
 			data: { user }
 		} = await supabase.auth.getUser();

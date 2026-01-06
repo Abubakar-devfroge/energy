@@ -1,7 +1,8 @@
 # Energy Auditing Prototype
 
 A prototype **Energy Auditing System** built with [Svelte](https://svelte.dev) and [`sv`](https://github.com/sveltejs/cli).  
-Upload your energy data, let the system analyze it, perform an audit, and get actionable suggestions to optimize energy usage.
+Upload your energy data via a form, let the system analyze it, perform an audit, and get actionable suggestions to optimize energy usage.
+In its final form the manual upload will be replaced by data input from sensors
 
 ---
 

@@ -8,13 +8,11 @@
 	let message = '';
 	let error = '';
 
-	// Handle form submission
 	async function handleSubmit() {
 		loading = true;
 		error = '';
 		message = '';
 
-		// Get current logged-in user
 		const {
 			data: { user }
 		} = await supabase.auth.getUser();
@@ -25,22 +23,19 @@
 			return;
 		}
 
-		// Insert energy reading into the DB
-		const { error: dbError } = await supabase
-			.from('energy_data')
-			.insert([
-				{
-					user_id: user.id,
-					timestamp,
-					consumption: parseFloat(consumption)
-				}
-			]);
+		const { error: dbError } = await supabase.from('energy_data').insert([
+			{
+				user_id: user.id,
+				timestamp,
+				consumption: parseFloat(consumption)
+			}
+		]);
 
 		if (dbError) {
 			error = dbError.message;
 		} else {
 			message = 'Energy reading saved successfully!';
-			// Clear form
+
 			timestamp = '';
 			consumption = '';
 		}
@@ -49,7 +44,7 @@
 	}
 </script>
 
-<div class="bg-white dark:bg-gray-800 p-6   dark:border-gray-700 max-w-md mx-auto">
+<div class="bg-white dark:bg-gray-800 p-6 dark:border-gray-700 max-w-md mx-auto">
 	<h2 class="text-xl font-semibold mb-4">Add Energy Reading</h2>
 
 	<form on:submit|preventDefault={handleSubmit} class="space-y-4">
