@@ -1,38 +1,27 @@
-# sv
+# Energy Auditing Prototype
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+A prototype **Energy Auditing System** built with [Svelte](https://svelte.dev) and [`sv`](https://github.com/sveltejs/cli).  
+Upload your energy data, let the system analyze it, perform an audit, and get actionable suggestions to optimize energy usage.
 
-## Creating a project
+---
 
-If you're seeing this, you've probably already done this step. Congrats!
+## GitHub Repository
 
-```sh
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Clone this prototype from GitHub:
 
 ```sh
-npm run dev
+git clone https://github.com/Abubakar-devfroge/energy.git
+cd energy/res
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
 
 ## Building
 
 To create a production version of your app:
 
 ```sh
-npm run build
+pnpm run build
 ```
 
-You can preview the production build with `npm run preview`.
+You can preview the production build with `pnpm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
