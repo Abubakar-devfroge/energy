@@ -14,7 +14,7 @@
 				<p class="text-sm font-light text-gray-600 mt-4">
 					<em> This is a prototype version of the Energy Auditing System.</em>
 				</p>
-				<!-- quick links -->
+			
 				<div class="flex gap-4 items-center text-gray-950 dark:text-slate-400 sm:mt-20 mt-10">
 					<a
 						href="/terms-and-conditions"
@@ -35,20 +35,22 @@
 					</a>
 				</div>
 			</div>
-			<!--  -->
+
 			<div>
-				<!-- logos -->
+				
 				<div class="flex items-center justify-center gap-2 mb-2 w-full">
-					<img src={img} alt="kenya" class="w-12 h-auto ml-12" />
+					<div class="flex items-center justify-center gap-2 mb-2 w-full">
+					<span class="text-2xl sm:text-3xl font-bold tracking-tight text-black ml-12"> Echo </span>
+				</div>
 				</div>
 				<p
 					class="text-xs tracking-normal font-light text-gray-950 dark:text-slate-400 max-w-xs my-6"
 				>
 					Automate your workflows with Echo
 				</p>
-				<!-- lang switcher -->
+			
 				<div class="relative w-fit">
-					<!-- Toggle Button -->
+					
 					<span
 						class="flex items-center gap-1.5 ml-2 text-sm text-gray-950 dark:text-slate-400 font-semibold"
 					>

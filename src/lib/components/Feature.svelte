@@ -8,7 +8,7 @@
 <div class=" py-24 sm:py-32">
 	<div class="mx-auto max-w-7xl px-6 lg:px-8">
 		<div class="lg:grid lg:grid-cols-2 lg:gap-x-16 lg:items-center">
-			<!-- Text Column -->
+		
 			<div class="max-w-lg mx-auto lg:mx-0">
 				<h3 class="text-sm font-semibold text-blue-500 uppercase tracking-wide">Deploy faster</h3>
 				<h2 class="mt-3 text-xl sm:text-5xl font-bold text-gray-900">
@@ -19,13 +19,13 @@
 				</p>
 				<a
 					href="/signup"
-					class="inline-block mt-8 bg-black text-white font-semibold px-6 py-4 rounded-md"
+					class="inline-block mt-8 bg-black text-white font-semibold px-6 py-2 rounded-md"
 				>
 					Get started &rarr;
 				</a>
 			</div>
 
-			<!-- Image Column -->
+	
 			<div class="mt-10 lg:mt-0 lg:flex lg:justify-end">
 				<img
 					{src}
