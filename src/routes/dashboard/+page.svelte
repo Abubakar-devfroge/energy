@@ -1,7 +1,10 @@
 <script lang="ts">
-	import List from '$lib/components/List.svelte';
+	import List from '$lib/components/ui/dashboard/List.svelte';
+
+
 	import Navbar from '$lib/components/ui/dashboard/Navbar.svelte';
-	import Upload from '$lib/components/Upload.svelte';
+	import Upload from '$lib/components/ui/dashboard/Upload.svelte';
+
 	import { supabase } from '$lib/supabase/client';
 	import { onMount } from 'svelte';
 
@@ -14,10 +17,6 @@
 </script>
 
 <Navbar />
-
-<h1 class="text-2xl font-bold">
-	Welcome, {name}
-</h1>
-<a href="/logout" class="text-blue-500 underline">Logout</a>
 <Upload />
 <List />
+
